@@ -4,8 +4,6 @@ function basicTeenager(age) {
 }
 }
 
-basicTeenager(4)
-
 
 function teenager(age) {
   if (`${age}` > 12 && `${age}` < 20) {
