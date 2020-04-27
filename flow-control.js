@@ -1,14 +1,12 @@
 function basicTeenager(age) {
-  if (`${age}` > 12 && `${age}` < 20) {
+  if ( age > 12 && age < 20) {
   return "You are a teenager!"
 }
 }
 
-basicTeenager("14")
-
 
 function teenager(age) {
-  if (`${age}` > 12 && `${age}` < 20) {
+  if (age > 12 && age < 20) {
     return "You are a teenager!"
   } else {
     return "You are not a teenager"
@@ -16,7 +14,7 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-  if (`${age}` > 12 && `${age}` < 20) {
+  if (age > 12 && age < 20) {
     return "You are a teenager!"
   } else if (`${age}` < 13) {
     return "You are a kid"
@@ -28,7 +26,7 @@ function ageChecker(age) {
 }
 
 function ternaryTeenager(age) {
-  return (`${age}` > 12 && `${age}` < 20) ?
+  return (age > 12 && age < 20) ?
   "You are a teenager" : "You are not a teenager"
   }
 
