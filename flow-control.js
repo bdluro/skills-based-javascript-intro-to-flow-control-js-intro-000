@@ -6,6 +6,7 @@ return (undefined);
 }
 }
 
+basicTeenager(4)
 
 
 function teenager(age) {
